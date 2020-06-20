@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MainActivity">
+
+    <swu.xl.xltoolbar.XLToolBar
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_id="@layout/view_main_tool_bar"
+        />
+
+    <TextView
+        android:id="@+id/main_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/main_show_bg"
+        android:layout_below="@id/tool_bar"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="理论考试内容"
+        android:textColor="#b4b4b4"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/main_show"
+        >
+
+        <TextView
+            android:id="@+id/subject_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="科目一"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            android:background="#6C9AD7"
+            android:padding="30dp"
+            />
+
+        <TextView
+            android:id="@+id/subject_4"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="科目四"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            android:background="#6C9AD7"
+            android:padding="30dp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

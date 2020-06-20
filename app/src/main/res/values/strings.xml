@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">驾考宝典</string>
+
+    <string name="A1">a1</string>
+    <string name="A2">a2</string>
+    <string name="B1">b1</string>
+    <string name="B2">b2</string>
+    <string name="C1">c1</string>
+    <string name="C2">c2</string>
+</resources>

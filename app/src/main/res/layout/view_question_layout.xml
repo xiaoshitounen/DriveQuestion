@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3/1500、在路口看到这种信号灯亮时，怎样做是正确的？"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        />
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:id="@+id/url"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:id="@+id/item1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A、开启转向灯提示直行车辆减速让行"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/item2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B、不能妨碍被放行的直行车辆通行"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/item3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C、开启近光灯告知直行车辆停车让行"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/item4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="D、尽快从直行车前方直接向左转弯"
+        />
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:text="正确答案：A"
+        />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/explain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="交警面向哪个方向就是在指挥哪个方向的车辆，就此图来说还是左转弯信号。"
+        android:textColor="#8B7353"
+        />
+
+
+</LinearLayout>
